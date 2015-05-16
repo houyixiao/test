@@ -1,0 +1,15 @@
+Git命令：http://blog.csdn.net/chaihuasong/article/details/37911723  问题详解
+
+查看设置的user/email：git config --list
+设置user/email：git config --global user.name "your name"
+git config --global user.email "your_email@youremail.com"
+创建ssh key：ssh-keygen -t rsa -C "邮箱"
+
+创建仓库：git init
+
+上传文件到GitHub：git add .
+git commit -m 'Test'
+git remote rm origin
+git remote add origin git@github.com:用户名/服务器仓库.git
+git push -u origin master
+
